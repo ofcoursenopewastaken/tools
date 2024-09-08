@@ -1,0 +1,20 @@
+{
+    "version": "1.2.1",
+    "description": "A delightful platform for full-stack web apps",
+    "homepage": "https://lamdera.com/",
+    "license": "Proprietary",
+    "architecture": {
+        "64bit": {
+            "url": "https://static.lamdera.com/bin/lamdera-1.2.1-windows-x86_64.zip",
+            "hash": "ace0c136c31f8a9c4f508edd2910a901dcc98c88c0c53676f9c4aa203473f3a9"
+        }
+    },
+    "bin": "lamdera/lamdera.exe",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://static.lamdera.com/bin/lamdera-$version-windows-x86_64.zip"
+            }
+        }
+    }
+}
